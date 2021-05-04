@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <form>
+        <label for="firstname">firstname</label>
+        <input type="text" id="firstname" name="firstname"><br /><br>
+        <label>lastname</label>
+        <input type="text" id="lastname" name="lastname"><br /><br>
+        <label>g-mail</label>
+        <input type="gmail" id="g-mail" name="g-mail"><br /><br>
+        <label>date of birth</label>
+        <input type="date" id="date of birth" name="date of birth"><br /><br>
+        <label>phone number</label>
+        <input type="text" id="ph no" name="ph no" maxlength="10"><br /><br>
+        <label>Gender:</label>
+        <input type="radio" id="radio" name="gender:" value="male">Male
+        <input type="radio" id="radio" name="gender:" value="female">Female
+        <input type="radio" id="radio" name="gender:" value="others">Others<br /><br>
+        <label>fav color</label>
+        <input type="color" id="fav color" name="fav color"><br><br>
+        <label>Checkbox</label>
+        <input type="checkbox" name="courses">Python
+        <input type="checkbox" name="courses">Java
+        <input type="checkbox" name="courses">Html<br><br>
+        <label>file</label>
+        <input type="file" name="file"><br><br>
+
+        <input type="submit">
+        <input type="reset"><br><br>
+    </form>
+    <form>
+        <label for="Bike Models">Bike Models</label>
+        <select>
+            <option value="NS200">NS200</option>
+            <option value="KTM">KTM</option>
+            <option value="Ducati">Ducati</option>
+            <option value="Bullet" selected>Bullet</option>
+        </select><br><br>
+        <label for="Description">Description</label>
+        <textarea id="Description" name="Description">
+
+        </textarea><br><br>
+        <button>Submit</button><br><br>
+        <label for="Mobiles">Choose Mobile Brand:</label>
+        <input list="Mobiles">
+        <datalist id="Mobiles" name="Mobiles">
+            <option value="Redmi">
+            <option value="realme">
+            <option value="Poco">
+        </datalist><br><br>
+        <fieldset>
+            <legend>Information</legend>
+            <label for="Firstname">Firstname</label>
+            <input type="text" id="Firstname" name="Firstname">
+            <label for="Lastname">Lastname</label>
+            <input type="text" id="Lastname" name="Lastname">
+        </fieldset>
+    </form>
+</body>
+
+</html>
