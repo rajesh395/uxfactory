@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>new example</title>
+    <style>
+        body {
+            background-color: linen;
+        }
+
+        ol.ol1 {
+            list-style-type: lower-alpha;
+        }
+
+        ul.ul2 {
+            list-style-type: square;
+        }
+
+        table {
+            border: 4px solid lightgreen;
+            width: 50%;
+            text-align: center;
+            border-collapse: collapse;
+            /* float: right; */
+        }
+
+        th {
+            border: 2px solid;
+            background-color: lightsteelblue;
+        }
+
+        td {
+            border: 2px solid;
+        }
+
+        tr:hover {
+            background-color: lightskyblue;
+        }
+
+        tr:active {
+            background-color: mediumvioletred;
+        }
+
+        #th1 {
+            display: none;
+        }
+    </style>
+    <script>
+        function myfunction() {
+            document.getElementById("th1").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+    <ol class="ol1">
+        <li>lll</li>
+        <li>kkk</li>
+        <li>ooo</li>
+        <li>aaa</li>
+    </ol>
+    <ol class="ol2">
+        <li>lll</li>
+        <li>kkk</li>
+        <li>ooo</li>
+        <li>aaa</li>
+    </ol>
+    <ul class="ul1">
+        <li>lll</li>
+        <li>kkk</li>
+        <li>ooo</li>
+        <li>aaa</li>
+    </ul>
+    <ul class="ul2">
+        <li>lll</li>
+        <li>kkk</li>
+        <li>ooo</li>
+        <li>aaa</li>
+    </ul>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Rajesh</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Scammer</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Ramesh</td>
+            <td>B.Sc</td>
+        </tr>
+
+        <tr>
+            <td>4.</td>
+            <td>Rajesh</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Scammer</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Ramesh</td>
+            <td>B.Sc</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Rajesh</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Scammer</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Ramesh</td>
+            <td>B.Sc</td>
+        </tr>
+    </table>
+    <h1 id="th1">heading tag for display</h1>
+    <button type="button" onclick="myfunction()">clickme</button><br>
+    
+</body>
+
+</html>
