@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS MEDIA QUERY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+       
+        @media only screen and (max-width: 600px) {
+            #child {
+                float: left;
+                background-color: red;
+                font-weight: bold;
+                color: azure;
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            #child {
+                float: left;
+                background-color:cornflowerblue;
+                font-weight: bold;
+                color: azure;
+                width: 50%;
+            }
+        }
+        @media only screen and (min-width: 768px) {
+            #child {
+                float:left ;
+                background-color:darkblue;
+                font-weight: bold;
+                color: azure;
+                width: 30%;
+            }
+        }
+        @media only screen and (min-width: 1200px) {
+            #child {
+                float:left ;
+                background-color:darkblue;
+                font-weight: bold;
+                color: azure;
+                width: 23%;
+            }
+        }
+        #child{
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="child">
+            <h2>Child 1</h2>
+            <p>THis is some sample text for child1</p>
+        </div>
+
+        <div id="child">
+            <h2>Child 2</h2>
+            <p>THis is some sample text for child2</p>
+        </div>
+
+        <div id="child">
+            <h2>Child 3</h2>
+            <p>THis is some sample text for child3</p>
+        </div>
+
+        <div id="child">
+            <h2>Child 4</h2>
+            <p>THis is some sample text for child4</p>
+        </div>
+    </div>
+</body>
+
+</html>

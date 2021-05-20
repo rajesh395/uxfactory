@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Practice3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div {
+            /* width: 24%; */
+            border: 2px solid rgb(80, 76, 76);
+            margin-left: 3px;
+            float: left;
+        }
+        #h4 {
+            text-align: center;
+            border-top: 1px dashed red;
+            border-bottom: 1px dashed red;
+        }
+
+        p {
+            display: inline;
+            /* text-align: center; */
+            border: 3px solid silver;
+            position: relative;
+            left: 60px;
+        }
+        @media only screen and (max-width: 600px) {
+            .child{
+                float: left;
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 600px){
+            .child{
+                float: left;
+                width: 48%;
+            }
+        }
+        @media only screen and (min-width: 770px){
+            .child{
+                float: left;
+                width: 32%;
+            }
+        }
+        @media only screen and (min-width: 1200px){
+            .child{
+                float: left;
+                width: 24%;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="child">
+            <img src="../img/phone1.jpg" height="230"><br>
+            <h4 style="text-align: center; font-weight: 400;">Apple iPhone 12 Pro</h4>
+            <h4 style=" text-align: center">
+                RS.1,19,900&nbsp;
+                <del style="opacity: 0.5;">1,56,000</del>
+            </h4>
+
+            <h4 id="h4">80 VFM Score</h4>
+            <ul>
+                <li>6.7"-screen</li>
+                <li>128GB ROM</li>
+                <li>12MP+12MP|12MP</li>
+                <li>OLED Display</li>
+                <li>LiDAR Scanner</li>
+            </ul>
+            <p><input type="button" value="view Details"></p>
+        </div>
+
+        <div class="child">
+            <img src="../img/phone2.jpg" height="230"><br>
+            <h4 style="text-align: center; font-weight: 400;">OnePlus Nord 5G</h4>
+            <h4 style=" text-align: center">
+                RS.29,999&nbsp;
+                <del style="opacity: 0.5;">30,000</del>
+            </h4>
+            <h4 id="h4">70 VFM Score</h4>
+            <ul>
+                <li>6.44"-screen</li>
+                <li>12GB RAM,256GB</li>
+                <li>48MP+8MP+5MP|32MP</li>
+                <li>4115mAH battery</li>
+                <li>In-Display Fingerprint</li>
+            </ul>
+            <p><input type="button" value="view Details"></p>
+        </div>
+
+        <div class="child">
+            <img src="../img/phone3.jpg" height="230" width="190"><br>
+            <h4 style="text-align: center; font-weight: 400;">POCO X2</h4>
+            <h4 style=" text-align: center">
+                RS.21,499&nbsp;
+                <del style="opacity: 0.5;">22,999</del>
+            </h4>
+
+            <h4 id="h4">90 VFM Score</h4>
+            <ul>
+                <li>6.67"-screen</li>
+                <li>8GB RAM,256GB</li>
+                <li>64MP+8MP|20MP+2MP</li>
+                <li>4500mAH battery</li>
+                <li>Fingerprint Sensor</li>
+            </ul>
+            <p><input type="button" value="view Details"></p>
+        </div>
+        <div class="child">
+            <img src="../img/phone4.jpeg" height="230" width="200"><br>
+            <h4 style="text-align: center; font-weight: 400;">ASUS ROG Phone3</h4>
+            <h4 style=" text-align: center">
+                RS.50,999&nbsp;
+                <del style="opacity: 0.5;">65,999</del>
+            </h4>
+
+            <h4 id="h4">90 VFM Score</h4>
+            <ul>
+                <li>6.59"-screen</li>
+                <li>12GB RAM,256GB</li>
+                <li>64MP+13MP|24MP</li>
+                <li>6000mAH battery</li>
+                <li>Fingerprint Sensor</li>
+            </ul>
+            <p><input type="button" value="view Details"></p>
+        </div>
+    </div>
+</body>
+
+</html>

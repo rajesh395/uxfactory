@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Page</title>
+    <style>
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        img {
+            margin-top: 90px;
+            float: left;
+            height: 500px;
+            width: 550px;
+        }
+
+        h2 {
+            display: inline;
+            text-decoration: none;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .c1 {
+            margin-left: 150px;
+            padding: 6px;
+        }
+
+        #c2 {
+            padding: 6px;
+        }
+
+        fieldset {
+            font-size: 25px;
+            font-weight: bold;
+            border: 2px solid;
+            margin: 100px 100px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h2><a href="file:///E:/uxfactory/practical1/Exersises/excersise1.html">||Home|</a></h2>
+    &nbsp;&nbsp&nbsp;&nbsp
+    <h2><a href="E:\uxfactory\practical1\Exersises\excersise2.html">|SignUp|</a></h2>
+    &nbsp;&nbsp&nbsp;&nbsp
+    <h2><a href="E:\uxfactory\practical1\Exersises\excersise3.html">|Contact Us||</a>
+    </h2>
+    <hr>
+    <img src="../img/signup2.jpg">
+
+    <form>
+        <fieldset>
+            <legend style="color:red;">SignUp</legend>
+            <label for="FName">First Name:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="FName"><br><br>
+            <label for="LName">Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="LName"><br><br>
+            <label for="E-mail">E-Mail:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email"><br><br>
+            <label for="Mobile Number">Mobile:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Mobile Number" maxlength="10"><br><br>
+            <label for="gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others<br><br><br><br>
+            <input type="submit" class="c1" value="SignUp">&nbsp;&nbsp;&nbsp;
+            <input type="reset" id="c2" value="Cancel">
+        </fieldset>
+    </form>
+</body>
+
+</html>
